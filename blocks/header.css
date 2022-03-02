@@ -111,13 +111,7 @@ span {
   margin: 0;
 }
 
-.header__footer-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.header__footer__list-item {
+.header__footer_list-item {
   list-style: none;
   padding: 0;
   margin: 0;
