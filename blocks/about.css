@@ -47,6 +47,10 @@
   color: #fff;
 }
 
+.span__paragraph {
+  margin: 0px 0px 16px 0px;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 425px;
