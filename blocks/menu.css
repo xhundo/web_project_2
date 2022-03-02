@@ -21,13 +21,14 @@
 .menu__subtitle {
   max-width: 780px;
   margin: 0px 0px 100px 0px;
-  padding-left: 450px;
+  padding-left: 330px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  text-align: center;
 }
 
 .menu__cards {
