@@ -72,8 +72,7 @@
 }
 
 .header__description {
-  position: absolute;
-  left: 80px;
+  padding: 0px 0px 0px 80px;
   margin: 365px 0 0 0;
   font-family: "Noto Serif";
   font-style: normal;
@@ -81,6 +80,10 @@
   font-size: 20px;
   line-height: 30px;
   z-index: 2;
+}
+
+span {
+  display: block;
 }
 
 .header__footer {
