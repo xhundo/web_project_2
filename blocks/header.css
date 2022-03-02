@@ -2,5 +2,118 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/background_header.svg;");
+  background-image: url("../images/background_header.svg");
+  height: 100vh;
+  min-height: 1100;
+  max-height: 1100;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav__link:nth-of-type(4n) {
+  margin: 0;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: color 0.5s ease;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-width: 646px;
+}
+
+.header__title {
+  position: absolute;
+  top: 202px;
+  left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  z-index: 1;
+  margin: 0 0 28px 0;
+}
+
+.span-accent {
+  position: static;
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  position: absolute;
+  left: 80px;
+  margin: 365px 0 0 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  z-index: 2;
+}
+
+.header__footer {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__footer_hours {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__footer_list-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__address {
+  color: #838383;
+  font-style: normal;
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
 }

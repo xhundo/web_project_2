@@ -1,0 +1,10 @@
+.header__logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.footer__logo {
+  width: 153px;
+  height: 32px;
+}

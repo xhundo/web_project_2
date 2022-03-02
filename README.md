@@ -13,4 +13,10 @@ This is the second project of the Web Development program at Practicum by Yandex
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Plans on imporving the project would include the following:
+
+- Background animations
+- Implemntation of widgets & interactive buttons.
+- More use of gradiant backrounds.
+- CSS animations for buttons.
+- Interactive forms/css animated.

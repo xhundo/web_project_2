@@ -1,0 +1,53 @@
+.card {
+  box-sizing: border-box;
+  width: calc(50% - 100px);
+  max-width: 600px;
+}
+
+.card__title {
+  margin: 0 0 32px 0;
+  flex-grow: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+}
+
+.card__list-item {
+  margin-bottom: 16px;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.card__list-item:nth-last-of-type(15n) {
+  margin: 0;
+}
+
+.card__list-divider {
+  display: flex;
+  flex-grow: 1;
+  align-items: baseline;
+}
+
+.card__list-divider::after {
+  content: "";
+  border-bottom: 1px solid #fff;
+  min-width: 50px;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
+}
