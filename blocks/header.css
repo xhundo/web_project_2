@@ -86,6 +86,10 @@ span {
   display: block;
 }
 
+.span__paragraph {
+  margin: 0px 0px 16px 0px;
+}
+
 .header__footer {
   position: absolute;
   bottom: 40px;
