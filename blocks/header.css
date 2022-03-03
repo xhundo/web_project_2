@@ -4,8 +4,6 @@
   background-repeat: no-repeat;
   background-image: url("../images/background_header.svg");
   height: 100vh;
-  min-height: 1100;
-  max-height: 1100;
 }
 
 .nav {
