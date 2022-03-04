@@ -59,12 +59,12 @@
 }
 
 .checkbox {
-  display: flex;
-  justify-content: center;
-  margin: 0px;
 }
 
 .form__checkbox {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
   border-radius: 2px;
   margin-right: 12px;
 }

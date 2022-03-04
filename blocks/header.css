@@ -58,7 +58,7 @@
   margin: 80px 0px 28px 0;
 }
 
-.span-accent {
+.header__span-accent {
   position: static;
   display: block;
   font-family: "Noto Serif";
@@ -91,7 +91,6 @@ span {
   left: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -112,9 +111,12 @@ span {
   margin: 0;
 }
 
-.header__address {
+.header__paragraph {
   color: #838383;
   font-style: normal;
+}
+
+.header__address {
   position: absolute;
   bottom: 40px;
   right: 80px;
