@@ -50,9 +50,6 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.checkbox {
-}
-
 .form__checkbox {
   display: flex;
   justify-content: center;
