@@ -1,4 +1,4 @@
-.menu__card {
+.card {
   box-sizing: border-box;
   width: calc(50% - 100px);
   max-width: 600px;
