@@ -1,4 +1,4 @@
-.card {
+.menu__card {
   box-sizing: border-box;
   width: calc(50% - 100px);
   max-width: 600px;
@@ -33,7 +33,7 @@
   color: #fff;
 }
 
-.card__list-item:nth-last-of-type(15n) {
+.card__list-item:last-of-type {
   margin: 0;
 }
 

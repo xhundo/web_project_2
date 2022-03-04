@@ -1,18 +1,10 @@
-.reservation__form {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 520px 120px 520px;
-  max-width: 385px;
-}
-
 .form__fieldset {
   display: flex;
   flex-direction: column;
   margin: 0;
   border: 0;
   padding: 0px;
-  max-width: 385px;
+  width: 385px;
   flex-wrap: wrap;
 }
 

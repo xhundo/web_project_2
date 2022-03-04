@@ -8,8 +8,8 @@
 
 .menu__title {
   max-width: 780px;
-  margin: 0 0px 28px 0px;
-  padding: 100px 0px 0px 650px;
+  margin: 0 0px 28px auto;
+  padding: 100px 0 0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -20,8 +20,7 @@
 
 .menu__subtitle {
   max-width: 780px;
-  margin: 0px 0px 100px 0px;
-  padding-left: 330px;
+  margin: 0 auto 100px auto;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
