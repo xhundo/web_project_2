@@ -24,16 +24,17 @@
 }
 
 .header__title {
+  position: relative;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   margin: 202px 0 0;
+  z-index: 2;
 }
 
 .header__span-accent {
-  position: static;
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -51,6 +52,8 @@
   font-size: 20px;
   line-height: 30px;
   display: block;
+  position: relative;
+  z-index: 2;
 }
 
 .header__description:last-child {
